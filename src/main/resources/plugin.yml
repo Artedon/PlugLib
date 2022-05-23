@@ -1,0 +1,6 @@
+name: PlugLib
+version: '${project.version}'
+main: pluglib.pluglib.PlugLib
+api-version: 1.17
+authors: [ Nevermiindd ]
+description: Plugin for easily installing other plugins
