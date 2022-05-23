@@ -1,6 +1,10 @@
 name: PlugLib
 version: '${project.version}'
-main: pluglib.pluglib.PlugLib
+main: nl.pluglib.PlugLib
 api-version: 1.17
 authors: [ Nevermiindd ]
 description: Plugin for easily installing other plugins
+commands:
+  fetch:
+    description: fetch a plugin from the library
+    permission: pluglib.admin
